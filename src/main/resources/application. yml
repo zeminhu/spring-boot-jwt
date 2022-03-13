@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "hello"
+  datasource:
+    driver-class-name: "com.mysql.jdbc.Driver"
+    url: "jdbc:mysql://localhost/test"
+server:
+  port: 8082
+jwt:
+  secret: javainuse
