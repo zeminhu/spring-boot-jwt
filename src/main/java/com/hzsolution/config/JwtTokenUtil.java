@@ -22,7 +22,7 @@ It makes use of the io.jsonwebtoken.Jwts for achieving this.
 public class JwtTokenUtil implements Serializable {
     private static final long serialVersionUID = -2550185165626007488L;
 
-    public static final long JWT_TOKEN_VALIDITY = 5 * 60 * 60;
+    public static final long JWT_TOKEN_VALIDITY = 24 * 60 * 60; // 24 hours
 
     @Value("${jwt.secret}")
     private String secret;
